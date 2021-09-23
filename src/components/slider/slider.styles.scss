@@ -3,16 +3,23 @@
     width: 80%;
     margin: 0 auto;
     position: relative;
-    .carouselWrapper{
+    .carouselWrapper {
         width: 100%;
         margin: 0 auto;
         margin-top: 9em;
         position: relative;
         border-radius: 5px;
+        background-color: #F8F8F8;
+        .active {
+            background-color: red;
+        }
         .title{
             padding: 5%;
             font-weight: bold;
             color: white;
+        }
+        .title-more{
+            padding: 5%;
         }
     }
     .nav {
@@ -39,4 +46,7 @@ img {
     border-width: 0px;
     background-color: #E9E9E9;
     cursor: hand;
+}
+.carouselWrapper.active{
+    background-color: #272727;
 }

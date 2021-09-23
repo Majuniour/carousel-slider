@@ -9319,6 +9319,11 @@ react-app-polyfill@^2.0.0:
     regenerator-runtime "^0.13.7"
     whatwg-fetch "^3.4.1"
 
+react-carousel-slider@^2.0.13:
+  version "2.0.13"
+  resolved "https://registry.yarnpkg.com/react-carousel-slider/-/react-carousel-slider-2.0.13.tgz#b6c8fd4fddfaa15a573a5cc56dda624858110e89"
+  integrity sha1-tsj9T936oVpXOlzFbdpiSFgRDok=
+
 react-dev-utils@^11.0.3:
   version "11.0.4"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-11.0.4.tgz#a7ccb60257a1ca2e0efe7a83e38e6700d17aa37a"
