@@ -1,0 +1,42 @@
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    .carouselWrapper{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 9em;
+        position: relative;
+        border-radius: 5px;
+        .title{
+            padding: 5%;
+            font-weight: bold;
+            color: white;
+        }
+    }
+    .nav {
+        display: flex;
+        justify-content:space-evenly;   
+    }
+    span {
+        display: flex;
+        justify-content: center;
+        font-size: medium;
+    }
+}
+img {
+    display: flex;
+    margin: auto;
+    height: 25pc;
+    width: 100%;
+    border-radius: 10px;
+    margin: 2px;
+
+}
+.btn{
+    height: 30px;
+    border-width: 0px;
+    background-color: #E9E9E9;
+    cursor: hand;
+}
